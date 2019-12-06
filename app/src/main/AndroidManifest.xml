@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ganeshbhandarkar.helpinghands">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mother_icon"
+        android:label="Helping Hands"
+        android:roundIcon="@mipmap/mother_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ComplainActivity"></activity>
+        <activity android:name=".Explore.ExploreDetails" />
+        <activity android:name=".ReadModeActivity" />
+        <activity android:name=".TopicActivity" />
+        <activity android:name=".Chapters.ChapterContentActivity" />
+        <activity android:name=".Games.FunTimeActivity" />
+        <activity android:name=".Games.CgGameActivity" />
+        <activity android:name=".Games.AcademicaActivity" />
+        <activity android:name=".GameCategoryActivity" />
+        <activity android:name=".Chapters.ChaptersActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:screenOrientation="landscape" android:name=".Video.FullScreenVideo" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

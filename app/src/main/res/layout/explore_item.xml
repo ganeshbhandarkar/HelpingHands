@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/block_no"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_no"
+        android:id="@+id/explore_title"
+        android:textSize="25dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/explore_title"
+        android:layout_alignParentEnd="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:id="@+id/title1"
+                android:textAlignment="center"
+                />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/title1"
+                    android:id="@+id/imageCard1"
+                    />
+                <TextView
+                    android:id="@+id/cardName1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageCard1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/title2"
+                    android:textAlignment="center"
+                    />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/title2"
+                    android:id="@+id/imageCard2"
+                    />
+                <TextView
+                    android:id="@+id/cardName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageCard2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

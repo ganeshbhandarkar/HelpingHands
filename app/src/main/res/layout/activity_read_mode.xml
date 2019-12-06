@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadModeActivity">
+
+    <TextView
+        android:id="@+id/readmodeon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/nasal"
+        android:text="Stepparents and biological parents alike frequently expect too much from the stepparent, especially early in the stepfamily’s development. Research confirms that stepparents and biological parents generally assume the stepparent should be affectionate with stepchildren and attempt to assert authority (to establish his or her position as a parent). However, stepchildren report, even five years after the wedding, they wish the stepparent would seek less physical affection and back away from asserting punishment. The challenge for biological parents and stepparents is to lower expectations and negotiate a relationship that’s mutually suitable to both the stepchild and the stepparent. Keep the following three principles in mind."/>
+
+</ScrollView>

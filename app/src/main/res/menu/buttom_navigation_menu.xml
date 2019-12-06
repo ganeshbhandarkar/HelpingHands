@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_learn"
+        android:title="LEARN"
+        android:enabled="true"
+        android:icon="@drawable/nav_home"
+        android:iconTint="@android:color/darker_gray"
+        android:fontFamily="@font/aileronthin"
+        />
+
+    <item
+        android:id="@+id/nav_build"
+        android:title="BUILD"
+        android:enabled="true"
+        android:icon="@drawable/nav_build"
+        android:iconTint="@android:color/darker_gray"
+        android:fontFamily="@font/aileronthin"
+
+        />
+
+    <item
+        android:id="@+id/nav_games"
+        android:title="GAMES"
+        android:enabled="true"
+        android:icon="@drawable/nav_games"
+        android:iconTint="@android:color/darker_gray"
+        android:fontFamily="@font/aileronthin"
+        />
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="ACCOUNT"
+        android:enabled="true"
+        android:icon="@drawable/nav_account"
+        android:iconTint="@android:color/darker_gray"
+        android:fontFamily="@font/aileronthin"
+        />
+
+</menu>

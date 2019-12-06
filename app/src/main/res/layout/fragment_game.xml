@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:background="@drawable/backgroundlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/academica"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/academica"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/cg_games"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/cg_gaame"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/academica"/>
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/fun_time"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/funtime"
+            android:scaleType="fitXY"
+            android:layout_below="@id/cg_games"/>
+
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/gameactivity_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fun_time"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/blue"
+            android:fontFamily="@font/aileronthin"
+            android:text="ALL GAMES"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

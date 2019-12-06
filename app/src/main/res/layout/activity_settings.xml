@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@drawable/background_settings">
+
+    <RelativeLayout
+        android:id="@+id/account_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/white">
+    <Button
+        android:id="@+id/back_fragment"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+        />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Account Settings"
+         android:textStyle="bold"
+         android:layout_centerInParent="true"
+         android:textAlignment="center"
+         android:textSize="20dp"
+         android:letterSpacing="0.06"
+         android:fontFamily="@font/aileronthin"
+         android:textColor="@android:color/black"
+
+         />
+</RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:layout_below="@+id/account_name"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:id="@+id/notify"-->
+
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="16dp"-->
+            <!--android:text="Notify"-->
+            <!--android:textSize="17dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:fontFamily="@font/aileronthin"-->
+            <!--android:letterSpacing="0.08"/>-->
+
+        <!--<androidx.appcompat.widget.SwitchCompat-->
+            <!--android:id="@+id/switch_notify"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--app:thumbTint="@android:color/holo_blue_bright"-->
+            <!--/>-->
+
+
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/account_name"
+        android:background="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:id="@+id/email"
+
+        >
+
+
+        <TextView
+            android:id="@+id/email_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email"
+            android:fontFamily="@font/aileronthin"
+            android:textSize="17dp"
+            android:padding="16dp"
+            android:letterSpacing="0.08"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:drawableRight="@drawable/ic_email_black_24dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/email"
+        android:background="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:id="@+id/Contacts"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/contact_button"
+            android:text="Contact Us"
+            android:fontFamily="@font/aileronthin"
+            android:textSize="17dp"
+            android:padding="16dp"
+            android:letterSpacing="0.08"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:drawableRight="@drawable/ic_message_black_24dp"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/Contacts"
+        android:background="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:id="@+id/signOut_button"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sign Out"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_centerVertical="true"
+            android:textSize="17dp"
+            android:padding="17dp"
+            android:id="@+id/signOut_text"
+            android:textStyle="bold"
+            android:fontFamily="@font/aileronthin"
+            android:letterSpacing="0.08"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:id="@+id/Privacy"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/privacy_button"
+            android:text="Privacy Policy"
+            android:fontFamily="@font/nasal"
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:letterSpacing="0.08"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
